@@ -1,6 +1,7 @@
 #!/bin/bash
 #Install needed Software
-yum install jemalloc-devel pcre-devel  openssl-devel gcc gcc-c++ -y
+yum install jemalloc-devel pcre-devel gcc gcc-c++ -y
+yum install -y openssl-devel
 
 #Add service user
 useradd www -s /sbin/nologin -M
